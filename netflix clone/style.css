@@ -1,0 +1,385 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image:url("assets/images/pg.jpg");
+    background-position: center center;
+     height: 644px;
+    background-repeat:  no-repeat;
+    background-size: max(1200px,100vw);
+   position: relative;
+   
+}
+.main .box{
+     height: 644px;
+    width: 100%;
+    background-color: black;
+    position:absolute;
+    top: 0;
+   opacity: 0.64;
+ 
+    
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px;   
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+      
+}
+
+ nav img{
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+     
+ }
+.same1{
+     position: relative;
+    z-index: 10;
+    
+    
+    font-size: medium;
+    font-weight:600;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    
+    margin: 0 5px;
+    height: 32px;
+margin-bottom: 5px;
+margin-left: 15px;
+}
+.English{
+  
+    width: 130px;
+    border-radius: 6px;
+   
+    padding-bottom: 5px;
+    border: 0.5px solid rgb(124, 122, 122);
+}
+.sign{
+    text-align: center;
+    width: 80px;
+  
+    padding-bottom: 5px;
+    border-radius: 6px;
+   background-color: red;
+    cursor: pointer;
+    border: red;
+    
+}
+.head{
+    height: calc(100% - 100px);
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    /* padding: 0 30px; */
+    
+    bottom: 30px;
+}
+.first{
+    font-size: 60px;
+      font-weight: bolder;
+      text-align: center;
+
+}
+.second{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+ } 
+    /* padding: 15px; */
+
+.third
+{
+    font-weight: 500;
+    padding: 15px;
+    text-align: center;
+}
+
+.line{
+     
+     
+    height: 5px;
+    background-color: gray;
+    position: relative;
+    z-index: 20;
+
+}
+ 
+.btn{
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    /* gap: 16px; */
+}
+.email{
+    background-color: black;
+    border: 2px solid rgb(218, 206, 206);
+     
+    padding: 0px 10px  ;
+    font-weight: bold;
+    
+     filter: opacity(55%);
+     font-size:large;
+    width: 350px;
+    
+    margin: 10px;
+}
+.for{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     
+}
+ 
+ .get{
+     align-items: center;
+     
+    border: 2px solid red;
+    background-color: red;
+    width: 220px;
+    
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.next{
+    padding: 25px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-trend{
+    display: flex;
+    flex-direction: row;
+}
+.trending{
+    color: white;
+    
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 10px;
+}
+
+
+.same{
+    background-color:rgb(25, 21, 21);
+    border:0.5px solid rgb(88, 87, 87); 
+    color: white;  
+    
+    margin: 0 10px;
+    font-size: medium;
+    font-weight:480;
+    font-size: 16px; 
+    height: 35px;
+    text-align: left;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+.India{
+    border-radius: 4px;
+    width: 85px;
+     
+}
+.Movies{
+    border-radius: 4px;
+    width: 100px;
+}
+
+.bm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 0 50px ;
+    
+    
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    height:320px;
+    width: 80%;
+    overflow-x: scroll;
+    overflow-y: visible;
+    scrollbar-width: none;
+}
+ 
+
+.items{
+        
+        cursor: pointer;
+}
+
+.img1{
+    margin: 15px;
+    border-radius: 10px;
+      
+}
+.img1 {
+    transform: scale(1,1);
+    transition: transform 0.5s ease;
+    
+  }
+  .items:hover .img1 {
+    transform: scale(1.1, 1.1);
+  }
+  .more{
+    padding: 35px 80px;
+    color: white;
+
+  }
+  .boxes{ 
+    margin: 0 40px ;
+    
+     display: flex;
+     flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 35px;
+  }
+  .item{
+    margin: 20px ;
+    background-color: rgb(15, 2, 58);
+    height: 280px;
+    width: 300px;
+    border-radius: 15px;
+  }
+  .word{
+   padding: 25px 15px   ;
+  }
+  .h2{
+    margin: 0 95px ;
+    
+  }
+  .faqbox{
+    
+    margin: 0 80px ;
+    
+  }
+ 
+  .a:hover  {
+    background-color: rgb(25, 26, 26);
+  }
+  .b:hover  {
+    background-color:  rgb(25, 26, 26);
+  }
+  .c:hover  {
+    background-color:  rgb(25, 26, 26);
+  }
+  .d:hover  {
+    background-color:  rgb(25, 26, 26);
+  }
+  .e:hover  {
+    background-color:  rgb(25, 26, 26);
+  }
+  .f:hover  {
+    background-color:  rgb(25, 26, 26);
+  }
+  .faq1{
+    margin: 20px ;
+    background-color:rgb(46, 43, 47);
+    height: 45%;
+    width: 95%;
+    padding: 20px  ;
+    padding-top: 15px; 
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+ }
+ 
+ 
+ .last{
+     margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ footer{
+    height: 75%;
+width: 100%;
+ }
+.about{     
+    padding: 50px 100px;
+    color:rgba(255,255,255, 0.7);
+}
+.flex{
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.s{
+    cursor: pointer;
+}
+li{ padding: 10px 0;
+    list-style: none;
+     text-decoration: underline;
+      color: rgba(255,255,255, 0.7);
+      cursor: pointer;
+}
+.same2{
+   opacity: 80%;
+   margin:0 85px;
+}
+.completed{
+    margin:45px 85px;
+    color: rgba(255,255,255, 0.7);
+}
+@media screen and (max-width:640px) {
+    .about{
+        padding: 25px 10px;
+        
+    }
+    .flex{
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .li{
+        margin:0 0;
+    }
+    .same2{
+    margin: 5px;
+    }
+    .completed{
+        margin: 40px 10px;
+    }
+    .phone{
+       margin: 10px;
+    }
+    .h2{
+        margin: 0 40px ;
+        
+      }
+      .faqbox{
+       margin-left: 30px;
+   margin-right: 25x;        
+      }
+      .lastone{
+        margin-left: 15px;
+      }
+    
+    
+}
+ 

@@ -3,15 +3,10 @@
 A simple Netflix landing page clone built using HTML and CSS. This project is a basic replica of the Netflix homepage to practice front-end web development skills.
 
 ## Table of Contents
-- [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Project Structure](#project-structure)
  
  
-## Demo
-You can view the live version of the Netflix clone [netflix clone](#).
 
 ## Features
 - Responsive design
@@ -23,9 +18,5 @@ You can view the live version of the Netflix clone [netflix clone](#).
 - **HTML5**: For structuring the page
 - **CSS3**: For styling and layout
 
-## Setup
-To run this project locally, follow these steps:
-
- cd netflix clone
-open index.html
+ 
 

@@ -1,5 +1,5 @@
 # Netflix Clone
-Author-Serla.Snehal Chaithanya
+Author-Serla.Snehal Chaithanya.
 A simple Netflix landing page clone built using HTML and CSS. This project is a basic replica of the Netflix homepage to practice front-end web development skills.
 
 ## Table of Contents

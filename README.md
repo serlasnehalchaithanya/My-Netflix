@@ -26,4 +26,6 @@ You can view the live version of the Netflix clone [here](#).
 ## Setup
 To run this project locally, follow these steps:
 
- 
+ cd netflix clone
+open index.html
+

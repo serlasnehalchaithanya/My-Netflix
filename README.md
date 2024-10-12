@@ -11,7 +11,7 @@ A simple Netflix landing page clone built using HTML and CSS. This project is a 
  
  
 ## Demo
-You can view the live version of the Netflix clone [here](#).
+You can view the live version of the Netflix clone [netflix clone](#).
 
 ## Features
 - Responsive design
